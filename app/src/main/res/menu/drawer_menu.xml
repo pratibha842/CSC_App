@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_floorinfo"
+            android:icon="@drawable/floorinfo"
+            android:title="Floor Info" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/courses"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_gellery"
+            android:icon="@drawable/gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/notice"
+            android:title="Notice Board" />
+        <item
+            android:id="@+id/nav_acedemic"
+            android:icon="@drawable/academic"
+            android:title="Acedemic Calendar" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_connect"
+                android:icon="@drawable/connect"
+                android:title="Connect" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/map"
+                android:title="Map" />
+            <item
+                android:id="@+id/nav_rateus"
+                android:icon="@drawable/rateus"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/nav_aboutdev"
+                android:icon="@drawable/activities"
+                android:title="About Developers" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Exit" />
+
+        </menu>
+    </item>
+
+</menu>

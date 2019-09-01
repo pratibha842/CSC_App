@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fot_facebook"
+        android:icon="@drawable/ic_fb"
+        android:title="Facebook" />
+
+    <item
+        android:id="@+id/fot_twitter"
+        android:icon="@drawable/ic_twitter"
+        android:title="Twitter" />
+
+    <item
+        android:id="@+id/fot_insta"
+        android:icon="@drawable/ic_instagram"
+        android:title="Instagram" />
+
+    <item
+        android:id="@+id/fot_youtube"
+        android:icon="@drawable/ic_youtube"
+        android:title="Youtube" />
+
+</menu>
